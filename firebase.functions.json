@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "codebase": "functions",
+    "predeploy": ["npx nx build functions"],
+    "runtime": "nodejs16",
+    "source": "dist/apps/functions"
+  }
+}
